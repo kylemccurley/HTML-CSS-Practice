@@ -1,0 +1,28 @@
+body {
+  margin-left: 25px;
+}
+
+p {
+  font-weight: bold;
+}
+
+ul {
+  padding-left: 0;
+}
+
+/* List Syling */
+ul li {
+  list-style: none;
+}
+
+.afternoon {
+  color: blue;
+}
+
+.afternoon-text {
+  font-style: italic;
+}
+
+.evening-text {
+  color: purple;
+}
