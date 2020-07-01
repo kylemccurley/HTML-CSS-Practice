@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #d3ddc1;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: normal;
+	color: #3e606f;
+}
+
+header {
+	box-sizing: border-box;
+	height: auto;
+	margin: 0 auto;
+	width: 960px;
+	display: flex;
+	align-items: baseline;
+
+}
+
+main {
+	box-sizing: border-box;
+	background-color: white;
+	margin: 0 auto;
+	padding: 30px;
+	width: 960px;
+	overflow: hidden;
+}
+
+#text {
+	color: #193441;
+	font: normal 36px "Roboto Condensed";
+	font-size: 2.25rem;
+	margin: 31px 15px 0px 15px;
+}
+
+#icons {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	width: 45%;
+	padding: 20px;
+	float: left;
+}
+
+#MastHead {
+  display: block;
+}
+
+h1 {
+  color: #377342;
+  margin: 35px 0 24px 0;
+  color: #3e606f;
+}
+
+p {
+	line-height: 1.35rem;
+	font-size: 18px;
+	margin: 0.75rem 0;
+}
+
+img#tree {
+	float: right;
+	margin-left: 35px;
+}
+
+ul {
+	margin-bottom: 0;
+}
+
+ul li {
+	box-sizing: border-box;
+	width: 24%;
+	display: inline-block;
+	background-color: white;
+	padding: 15px 45px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	text-align: center;
+}
+
+ul li:first-of-type {
+	background-color: #91aa9d;
+}
+
+ul li:first-of-type a {
+  color: white;
+}
+
+li a {
+	text-decoration: none;
+	color: #91AA9D;
+}
+
+nav {
+	display: inline-block;
+	margin: 0 1rem;
+	display: flex;
+	align-items: baseline;
+}
